@@ -1,10 +1,17 @@
 # WordPress core files - no necesarios para sitio estático
-wp-includes/
-wp-content/plugins/
-wp-content/themes/astra/
+# Pero necesitamos los assets (CSS, JS) para que el sitio funcione
+wp-includes/**/*.php
+wp-content/plugins/**/*.php
+wp-content/themes/astra/**/*.php
 
-# Solo mantener uploads y assets necesarios
+# Permitir assets necesarios
 !wp-content/uploads/
+!wp-content/themes/astra/assets/
+!wp-content/plugins/elementor/assets/
+!wp-content/plugins/elementor-pro/assets/
+!wp-content/plugins/sticky-header-effects-for-elementor/assets/
+!wp-includes/js/
+!wp-includes/css/
 
 # Archivos de desarrollo
 .DS_Store
