@@ -1,5 +1,12 @@
 {
   "version": 2,
+  "redirects": [
+    {
+      "source": "/menu",
+      "destination": "https://drive.google.com/file/d/1vLh4oDqAqfac6qHqdCXfr-OaILtHtnXH/view?usp=sharing",
+      "permanent": false
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
