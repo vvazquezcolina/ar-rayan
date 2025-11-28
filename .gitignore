@@ -1,0 +1,27 @@
+# WordPress core files - no necesarios para sitio estático
+wp-includes/
+wp-content/plugins/
+wp-content/themes/astra/
+
+# Solo mantener uploads y assets necesarios
+!wp-content/uploads/
+
+# Archivos de desarrollo
+.DS_Store
+*.log
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos temporales
+node_modules/
+.env
+.env.local
+.env.*.local
+
+# Archivos del sistema
+Thumbs.db
+desktop.ini
+

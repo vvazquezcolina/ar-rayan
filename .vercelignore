@@ -1,0 +1,19 @@
+# Archivos y carpetas a ignorar en el despliegue de Vercel
+# (opcional - Vercel normalmente ignora estos automáticamente)
+
+# Archivos de desarrollo
+*.log
+.DS_Store
+.vscode/
+.idea/
+
+# Archivos de Git
+.git/
+.gitignore
+
+# Archivos de configuración local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
